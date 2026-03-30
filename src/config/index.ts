@@ -6,7 +6,7 @@ const config: Config = {
   avatar: "/images/profile.png",
   title: "Aspirin",
   description:
-    "I am a first-year M.S. student in Computer Science at the [USC Viterbi School of Engineering](https://viterbischool.usc.edu/) ✌️. I graduated with a B.S. in Atmospheric Sciences from the [National Central University](https://www.ncu.edu.tw/) 🐿️.",
+    "I'm an Software Engineering.",
   author: "Aspirin",
   keywords: [
     "Aspirin",
@@ -208,9 +208,9 @@ const config: Config = {
   },
   giscusConfig: {
     id: "comments",
-    repo: "1chooo/1chooo.com",
-    repoId: process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "",
-    category: "General",
+    repo: "iFence/vcard-blog",
+    repoId: process.env.NEXT_PUBLIC_GISCUS_CONFIG_REPO_ID || "",
+    category: "Announcements",
     categoryId: process.env.NEXT_PUBLIC_GISCUS_CONFIG_CATEGORY_ID || "",
     mapping: "pathname",
     term: "Welcome to @giscus/react component!",
@@ -218,7 +218,7 @@ const config: Config = {
     emitMetadata: "1",
     inputPosition: "bottom",
     theme: "dark_tritanopia",
-    lang: "en",
+    lang: "zh-CN",
     loading: "lazy",
   },
   web3formsAccessKey: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "",
