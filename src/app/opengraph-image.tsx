@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { join } from "node:path";
 import { readFile } from "node:fs/promises";
 
-export const alt = "Chun-Ho (Hugo) Lin - 1chooo";
+export const alt = "Aspirin";
 export const size = {
   width: 1920,
   height: 1080,

@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import PageTitle from "@/components/page-title";
 import { MyWritings } from "@/components/about/my-writings";
 import { FadeLeft } from "@/components/animations/animations";
+import {GitHubMap} from "@/components/mdx/github-map";
 import {
   getBlogPosts,
   getCleanMdxContentFromPath,
@@ -35,6 +36,10 @@ function About() {
           route="/project"
           seeMoreBadge="✨ See More Projects"
         />
+      </AboutSection>
+
+      <AboutSection id="Github" title="Github">
+        <GitHubMap  username={"iFence"} />
       </AboutSection>
 
       <AboutSection id="my-writings" title="My Writings">

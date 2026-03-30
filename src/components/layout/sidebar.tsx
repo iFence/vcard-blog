@@ -44,9 +44,9 @@ function Sidebar({
         <div>
           <h1
             className={styles.name}
-            title={`${firstName} (${preferredName}) ${lastName}`}
+            title={`${firstName} ${lastName}`}
           >
-            {firstName} ({preferredName}) {lastName}
+            {firstName} {lastName}
           </h1>
           <p className={styles.title}>{status}</p>
         </div>

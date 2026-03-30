@@ -80,7 +80,7 @@ const NavBar = () => {
           </ViewTransitionsProgressBarLink>
         </li>
 
-        <li className="py-2 navbar-item">
+        {/* <li className="py-2 navbar-item">
           <ViewTransitionsProgressBarLink
             href="/resume"
             onClick={() => handleNavClick("Resume", "/resume")}
@@ -115,7 +115,7 @@ const NavBar = () => {
               />
             )}
           </ViewTransitionsProgressBarLink>
-        </li>
+        </li> */}
 
         <li className="py-2 navbar-item">
           <ViewTransitionsProgressBarLink

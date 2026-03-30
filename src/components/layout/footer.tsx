@@ -23,14 +23,6 @@ function Footer() {
         <Link className="footer-link" href="/terms">
           Terms
         </Link>
-        <Link
-          className="footer-link"
-          href="https://docs.1chooo.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Docs
-        </Link>
       </div>
     </footer>
   );

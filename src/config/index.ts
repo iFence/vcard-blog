@@ -12,8 +12,8 @@ const config: Config = {
     "Aspirin",
     "Software Engineering",
   ],
-  status: "Fight on ✌️",
-  siteURL: "https://aspirin.vercel.app",
+  status: "人生天地间，忽如远行客。",
+  siteURL: "https://aspirin-iota.vercel.app",
   contacts: [
     {
       icon: ICON_NAMES.MAP_PIN_LU,
@@ -42,10 +42,10 @@ const config: Config = {
   homeMetaData: {
     metadataBase: new URL(
       process.env.NODE_ENV === "production"
-        ? "https://aspirin.vercel.app"
+        ? "https://aspirin-iota.vercel.app"
         : "http://localhost:3000",
     ),
-    title: "Chun-Ho (Hugo) Lin - 1chooo",
+    title: "Aspirin",
     description:
       "I am a first-year M.S. student in Computer Science at the [USC Viterbi School of Engineering](https://viterbischool.usc.edu/) ✌️. I graduated with a B.S. in Atmospheric Sciences from the [National Central University](https://www.ncu.edu.tw/) 🐿️.",
     authors: [{ name: "Aspirin" }],
