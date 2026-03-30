@@ -3,68 +3,62 @@ import { ICON_NAMES } from "@/components/icons";
 import { Config } from "@/types/config";
 
 const config: Config = {
-  avatar: "/images/profile.webp",
-  title: "Chun-Ho (Hugo) Lin - 1chooo",
+  avatar: "/images/profile.png",
+  title: "Aspirin",
   description:
     "I am a first-year M.S. student in Computer Science at the [USC Viterbi School of Engineering](https://viterbischool.usc.edu/) ✌️. I graduated with a B.S. in Atmospheric Sciences from the [National Central University](https://www.ncu.edu.tw/) 🐿️.",
-  author: "Chun-Ho (Hugo) Lin - 1chooo",
+  author: "Aspirin",
   keywords: [
-    "Chun-Ho (Hugo) Lin",
-    "1chooo",
+    "Aspirin",
     "Software Engineering",
-    "University of Southern California",
-    "National Central University",
   ],
   status: "Fight on ✌️",
-  siteURL: "https://v0.1chooo.com",
+  siteURL: "https://aspirin.vercel.app",
   contacts: [
     {
       icon: ICON_NAMES.MAP_PIN_LU,
       title: "Location",
-      content: "Los Angeles, CA 🇺🇸",
+      content: "Jinan, Shandong China",
     },
     {
       icon: ICON_NAMES.MAIL_LU,
       title: "Email",
-      link: "mailto:hugo@1chooo.com",
-      content: "hugo@1chooo.com",
+      link: "mailto:vyulei97@gamil.com",
+      content: "vyulei97@gamil.com",
     },
     {
       icon: ICON_NAMES.GITHUB_LU,
       title: "GitHub",
-      link: "https://github.com/1chooo",
-      content: "@1chooo",
+      link: "https://github.com/iFence",
+      content: "@iFence",
     },
-    {
-      icon: ICON_NAMES.LINKEDIN_LU,
-      title: "LinkedIn",
-      link: "https://www.linkedin.com/in/1chooo/",
-      content: "in/1chooo",
-    },
+    // {
+    //   icon: ICON_NAMES.LINKEDIN_LU,
+    //   title: "LinkedIn",
+    //   link: "https://www.linkedin.com/in/1chooo/",
+    //   content: "in/1chooo",
+    // },
   ],
   homeMetaData: {
     metadataBase: new URL(
       process.env.NODE_ENV === "production"
-        ? "https://v0.1chooo.com"
+        ? "https://aspirin.vercel.app"
         : "http://localhost:3000",
     ),
     title: "Chun-Ho (Hugo) Lin - 1chooo",
     description:
       "I am a first-year M.S. student in Computer Science at the [USC Viterbi School of Engineering](https://viterbischool.usc.edu/) ✌️. I graduated with a B.S. in Atmospheric Sciences from the [National Central University](https://www.ncu.edu.tw/) 🐿️.",
-    authors: [{ name: "Chun-Ho (Hugo) Lin" }],
-    creator: "Chun-Ho (Hugo) Lin",
+    authors: [{ name: "Aspirin" }],
+    creator: "Aspirin",
     keywords: [
-      "Chun-Ho (Hugo) Lin",
-      "1chooo",
+      "Aspirin",
       "Software Engineering",
-      "University of Southern California",
-      "National Central University",
     ],
     openGraph: {
       url: "https://v0.1chooo.com/",
       type: "website",
-      siteName: "Chun-Ho (Hugo) Lin - 1chooo",
-      title: "Chun-Ho (Hugo) Lin - 1chooo",
+      siteName: "Aspirin",
+      title: "Aspirin",
       locale: "en_US",
       description:
         "I am a first-year M.S. student in Computer Science at the [USC Viterbi School of Engineering](https://viterbischool.usc.edu/) ✌️. I graduated with a B.S. in Atmospheric Sciences from the [National Central University](https://www.ncu.edu.tw/) 🐿️.",
@@ -73,7 +67,7 @@ const config: Config = {
           url: "/opengraph-image",
           width: 1920,
           height: 1080,
-          alt: "Chun-Ho (Hugo) Lin - 1chooo",
+          alt: "Aspirin",
         },
       ],
     },
@@ -81,7 +75,7 @@ const config: Config = {
     twitter: {
       site: "@1chooo___",
       card: "summary_large_image",
-      title: "Chun-Ho (Hugo) Lin - 1chooo",
+      title: "Aspirin",
       description:
         "I am a first-year M.S. student in Computer Science at the [USC Viterbi School of Engineering](https://viterbischool.usc.edu/) ✌️. I graduated with a B.S. in Atmospheric Sciences from the [National Central University](https://www.ncu.edu.tw/) 🐿️.",
       images: [
@@ -89,7 +83,7 @@ const config: Config = {
           url: "/twitter-image",
           width: 1920,
           height: 1080,
-          alt: "Chun-Ho (Hugo) Lin - 1chooo",
+          alt: "Aspirin",
         },
       ],
     },
@@ -106,12 +100,12 @@ const config: Config = {
     },
   },
   about: {
-    firstName: "Chun-Ho",
-    lastName: "Lin",
+    firstName: "Aspirin",
+    lastName: "",
     middleName: "",
-    preferredName: "Hugo",
+    preferredName: "iFence",
     pronouns: "He/Him",
-    githubUsername: "1chooo",
+    githubUsername: "iFence",
     lifestyles: [
       {
         icon: ICON_NAMES.GITHUB_LU,
@@ -173,16 +167,16 @@ const config: Config = {
     "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://v0.1chooo.com/#person",
-    name: "Chun-Ho (Hugo) Lin",
-    givenName: "Chun-Ho",
-    familyName: "Lin",
-    additionalName: "Hugo",
+    name: "Aspirin",
+    givenName: "Aspirin",
+    familyName: "",
+    additionalName: "",
     gender: "male",
-    birthPlace: "New Taipei, TW",
+    birthPlace: "Linyi, Shandong",
     nationality: {
       "@type": "Country",
-      name: "Taiwan",
-      alternateName: "TW",
+      name: "China",
+      alternateName: "CN",
     },
     alumniOf: [
       {
@@ -291,7 +285,7 @@ const config: Config = {
     database: ["redis", "supabase", "firebase", "dynamodb"],
   },
   rssOptions: {
-    title: "Chun-Ho (Hugo) Lin - 1chooo",
+    title: "Aspirin",
     description:
       "I am a first-year M.S. student in Computer Science at the [USC Viterbi School of Engineering](https://viterbischool.usc.edu/) ✌️. I graduated with a B.S. in Atmospheric Sciences from the [National Central University](https://www.ncu.edu.tw/) 🐿️.",
     site_url: "https://v0.1chooo.com",
